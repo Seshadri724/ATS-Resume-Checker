@@ -8,7 +8,7 @@ from PIL import Image
 
 load_dotenv()
 
-genai.configure(api_key=os.getenv("AIzaSyDOO-L8kwzrUzYyxCTUBbpA7ggGyrf-WPw"))
+genai.configure(api_key=os.getenv("Api key"))
 
 model = genai.GenerativeModel('gemini-pro')
 
